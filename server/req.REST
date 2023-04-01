@@ -1,0 +1,26 @@
+POST http://localhost:5000/api/comment
+Content-Type: application/json
+
+{
+    "author": "Me",
+    "body": "This is a comment"
+}
+
+###
+
+GET http://localhost:5000/api/comment
+Content-Type: application/json
+
+###
+
+PUT http://localhost:5000/api/comment/63fc34986f16102f3777effb
+Content-Type: application/json
+
+{
+    "body": "This is good a comment"
+}
+
+###
+
+DELETE http://localhost:5000/api/comment/63fc34986f16102f3777effb
+Content-Type: application/json

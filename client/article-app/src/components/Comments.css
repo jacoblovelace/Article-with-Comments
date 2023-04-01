@@ -1,0 +1,104 @@
+.comment-input {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.comment-text {
+  font-family: Verdana, sans-serif;
+  resize: none;
+  padding: 10px;
+  margin: 20px 0;
+}
+
+.comment-btn {
+  width: 100px;
+  margin: 0 0 10px 0;
+}
+
+.comment-input-update {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.comment-container {
+  width: 60%;
+  margin-top: 80px;
+  margin-bottom: 80px;
+  margin-left: 10%;
+}
+
+.num-comments {
+  padding-bottom: 20px;
+  color: gray;
+}
+
+.comment-box {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+.comment {
+  position: relative;
+  margin: 40px auto;
+}
+
+.comment-header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.comment-info {
+  margin: 0;
+}
+
+.comment-date {
+  color: #555;
+  font-size: 12px;
+  margin: 0;
+}
+
+.comment-author {
+  color: rgba(0, 0, 0, 0.85);
+  font-size: 16px;
+  margin: 0 auto;
+}
+
+.comment-body {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.action-btns {
+  display: inline-flex;
+  gap: 10px;
+  margin: 0;
+}
+
+.comment-sep {
+  width: calc(100% + 60px);
+  margin-left: -30px;
+  border-top: 1px solid #ccc;
+}
+
+button {
+  appearance: none;
+  max-height: 30px;
+  font-size: 14px;
+  padding: 4px 8px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button:hover,
+button:focus,
+button:active {
+  cursor: pointer;
+  background-color: #eee;
+}
+
